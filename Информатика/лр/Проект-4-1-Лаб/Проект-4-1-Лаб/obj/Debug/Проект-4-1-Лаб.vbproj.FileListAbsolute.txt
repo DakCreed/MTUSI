@@ -1,0 +1,12 @@
+D:\Visual Studio\Проект-4-1-Лаб\Проект-4-1-Лаб\bin\Debug\Проект-4-1-Лаб.exe.config
+D:\Visual Studio\Проект-4-1-Лаб\Проект-4-1-Лаб\bin\Debug\Проект-4-1-Лаб.exe
+D:\Visual Studio\Проект-4-1-Лаб\Проект-4-1-Лаб\bin\Debug\Проект-4-1-Лаб.pdb
+D:\Visual Studio\Проект-4-1-Лаб\Проект-4-1-Лаб\bin\Debug\Проект-4-1-Лаб.xml
+D:\Visual Studio\Проект-4-1-Лаб\Проект-4-1-Лаб\obj\Debug\Проект-4-1-Лаб.vbprojAssemblyReference.cache
+D:\Visual Studio\Проект-4-1-Лаб\Проект-4-1-Лаб\obj\Debug\Проект_4_1_Лаб.Form1.resources
+D:\Visual Studio\Проект-4-1-Лаб\Проект-4-1-Лаб\obj\Debug\Проект_4_1_Лаб.Resources.resources
+D:\Visual Studio\Проект-4-1-Лаб\Проект-4-1-Лаб\obj\Debug\Проект-4-1-Лаб.vbproj.GenerateResource.cache
+D:\Visual Studio\Проект-4-1-Лаб\Проект-4-1-Лаб\obj\Debug\Проект-4-1-Лаб.vbproj.CoreCompileInputs.cache
+D:\Visual Studio\Проект-4-1-Лаб\Проект-4-1-Лаб\obj\Debug\Проект-4-1-Лаб.exe
+D:\Visual Studio\Проект-4-1-Лаб\Проект-4-1-Лаб\obj\Debug\Проект-4-1-Лаб.xml
+D:\Visual Studio\Проект-4-1-Лаб\Проект-4-1-Лаб\obj\Debug\Проект-4-1-Лаб.pdb
