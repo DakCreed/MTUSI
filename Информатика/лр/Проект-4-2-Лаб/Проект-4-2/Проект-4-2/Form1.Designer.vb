@@ -28,12 +28,14 @@ Partial Class Form1
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.ListBox1 = New System.Windows.Forms.ListBox()
+        Me.Label3 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(69, 171)
+        Me.Label1.Location = New System.Drawing.Point(21, 20)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(86, 17)
         Me.Label1.TabIndex = 0
@@ -42,7 +44,7 @@ Partial Class Form1
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(69, 287)
+        Me.Label2.Location = New System.Drawing.Point(160, 20)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(86, 17)
         Me.Label2.TabIndex = 1
@@ -50,21 +52,21 @@ Partial Class Form1
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(220, 171)
+        Me.TextBox1.Location = New System.Drawing.Point(24, 51)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(100, 22)
         Me.TextBox1.TabIndex = 2
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(220, 287)
+        Me.TextBox2.Location = New System.Drawing.Point(163, 51)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(100, 22)
         Me.TextBox2.TabIndex = 3
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(513, 169)
+        Me.Button1.Location = New System.Drawing.Point(24, 93)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(119, 40)
         Me.Button1.TabIndex = 4
@@ -73,18 +75,38 @@ Partial Class Form1
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(513, 285)
+        Me.Button2.Location = New System.Drawing.Point(163, 93)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(119, 41)
         Me.Button2.TabIndex = 5
         Me.Button2.Text = "Завершить"
         Me.Button2.UseVisualStyleBackColor = True
         '
+        'ListBox1
+        '
+        Me.ListBox1.FormattingEnabled = True
+        Me.ListBox1.ItemHeight = 16
+        Me.ListBox1.Location = New System.Drawing.Point(24, 196)
+        Me.ListBox1.Name = "ListBox1"
+        Me.ListBox1.Size = New System.Drawing.Size(176, 196)
+        Me.ListBox1.TabIndex = 6
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(247, 196)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(111, 17)
+        Me.Label3.TabIndex = 7
+        Me.Label3.Text = "Пример данных"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.ListBox1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.TextBox2)
@@ -104,4 +126,6 @@ Partial Class Form1
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
+    Friend WithEvents ListBox1 As ListBox
+    Friend WithEvents Label3 As Label
 End Class
